@@ -10,6 +10,58 @@ namespace trilha_net
     {
         static void Main(string[] args)
         {
+            int numero = 15;
+            bool par = false;
+
+            par = numero.EhPar();
+
+            Console.WriteLine($"o número {numero} é {(par ? "par" : "impar")}");
+
+
+
+            /*
+            MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+            arrayInteiro.AdicionarElementoArray(30);
+
+            Console.WriteLine(arrayInteiro[0]);
+
+            MeuArray<string> arrayString = new MeuArray<string>();
+
+            arrayString.AdicionarElementoArray("Texto");
+
+            Console.WriteLine(arrayString[0]);
+            */
+
+
+            /*
+            dynamic variavelDinamica = 5;
+
+            Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+            variavelDinamica = "Texto";
+
+            Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+            variavelDinamica = true;
+
+            Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+            */
+
+            /*
+            string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+            List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+            var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+            foreach (var venda in listaAnonimo)
+            {
+                Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+            }
+            */
+
+            /*
             var tipoAnonimo = new { Nome = "Walteir", Sobrenome = "Coelho", Altura = 1.80 };
 
             Console.WriteLine($"Nome: {tipoAnonimo.Nome} " +
@@ -36,6 +88,7 @@ namespace trilha_net
                 Console.WriteLine($"Produto: {venda.Produto}");
                 Console.WriteLine($"Preço: {venda.Preco:C}");
             }
+            */
 
             /*
             DateTime dataAtual = DateTime.Now; //ISO 8601
