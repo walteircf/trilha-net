@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Nome_Produto": "Material de escritorio",
+    "Preco": 25.00,
+    "DataVenda": "2025-08-02T15:14:56.0811205-03:00",
+    "Desconto": null
+  },
+  {
+    "Id": 2,
+    "Nome_Produto": "Caneta",
+    "Preco": 1.99,
+    "DataVenda": "2025-08-02T15:14:56.0811205-03:00",
+    "Desconto": 10
+  },
+  {
+    "Id": 3,
+    "Nome_Produto": "Mesa de escritório",
+    "Preco": 199.90,
+    "DataVenda": "2025-08-02T15:14:56.0811205-03:00",
+    "Desconto": null
+  }
+]
